@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Ahi Evran</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Ahi Evran</h1>
+        <nav>
+            <ul>
+                <li><button onclick="showSection('hakkinda')">Hakkında</button></li>
+                <li><button onclick="showSection('menu')">Menü</button></li>
+                <li><button onclick="showSection('eserler')">Eserler</button></li>
+                <li><button onclick="showSection('kaynakca')">Kaynakça</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hakkinda">
+            <h2>Hakkında</h2>
+            <p>Ahi Evran, 13. yüzyılda yaşamış ünlü bir Türk düşünür ve esnaf teşkilatı lideridir. Ahilik teşkilatının kurucusu olarak bilinir ve esnaflar arasında dürüstlük, yardımlaşma ve dayanışma gibi değerleri teşvik etmiştir.</p>
+            <p>Ahi Evran, İran'ın Hoy şehrinde doğmuş ve asıl adı Mahmud bin Ahmed'dir. Gençliğinde öğrenim görmek için Bağdat'a gitmiş, burada birçok alimden ders almış ve tasavvufi eğitimini tamamlamıştır. Daha sonra Anadolu'ya gelerek, burada Ahilik teşkilatını kurmuştur.</p>
+            <p>Ahilik, esnaf ve zanaatkarlar arasında ahlaki ve mesleki standartları korumayı amaçlayan bir teşkilattır. Ahi Evran'ın bu teşkilatın kurulmasındaki rolü büyüktür ve onun liderliğinde Ahilik, Anadolu'da hızla yayılmıştır.</p>
+            <p>Ahi Evran'ın eserleri arasında "Letâif-i Hikmet", "Mecmûa-i Hikmet" ve "Nasihatname" gibi önemli eserler bulunmaktadır. Bu eserlerinde ahlaki ve mesleki konulara değinmiş, esnafların nasıl davranması gerektiği konusunda yol göstermiştir.</p>
+            <p>Ahi Evran'ın hayatı boyunca birçok önemli olaya tanıklık etmiştir. Genç yaşta eğitim almak için Bağdat'a gitmiş ve burada ünlü alimlerin derslerine katılmıştır. Tasavvufi eğitimini tamamladıktan sonra Anadolu'ya gelerek Ahilik teşkilatını kurmuş ve bu teşkilatın liderliğini yapmıştır. Ahi Evran, aynı zamanda Selçuklu ve Osmanlı dönemlerinde de etkili olmuştur.</p>
+            <p>Ahi Evran'ın kurduğu Ahilik teşkilatı, esnaflar arasında dürüstlük, yardımlaşma, dayanışma ve sosyal adaleti teşvik etmiştir. Bu teşkilat, esnaf ve zanaatkarlar arasında ahlaki ve mesleki standartları korumayı amaçlamış ve Anadolu'da önemli bir sosyal yapı haline gelmiştir.</p>
+            <p>Ahi Evran'ın önemli eserleri arasında "Letâif-i Hikmet", "Mecmûa-i Hikmet" ve "Nasihatname" bulunmaktadır. Bu eserlerinde ahlaki ve mesleki konulara değinmiş, esnafların nasıl davranması gerektiği konusunda yol göstermiştir. Ayrıca, Ahilik teşkilatının kuralları ve prensipleri hakkında da bilgiler vermiştir.</p>
+            <p>Ahi Evran'ın vefatından sonra Ahilik teşkilatı, onun öğretilerini ve ilkelerini devam ettirerek esnaflar arasında güçlü bir dayanışma ağı oluşturmuştur. Ahilik teşkilatı, Osmanlı İmparatorluğu'nun ekonomik ve sosyal yapısında önemli bir rol oynamıştır. Esnaflar arasında adalet, dürüstlük ve yardımlaşma ilkelerini yayarak, toplumun ekonomik ve sosyal gelişimine katkıda bulunmuştur.</p>
+            <p>Ahi Evran'ın Ahilik teşkilatındaki rolü ve öğretileri, bugün hala esnaflar arasında saygıyla anılmakta ve onun bıraktığı miras, Türk kültüründe önemli bir yere sahip olmaya devam etmektedir.</p>
+        </section>
+        <section id="menu">
+            <h2>Menü</h2>
+            <ul>
+                <li><button onclick="showSubSection('hayati')">Ahi Evran'ın Hayatı</button></li>
+                <li><button onclick="showSubSection('teskilat')">Ahilik Teşkilatı</button></li>
+                <li><button onclick="showSubSection('eserler')">Ahi Evran'ın Eserleri</button></li>
+                <li><button onclick="showSubSection('donemi')">Ahi Evran ve Dönemi</button></li>
+                <li><button onclick="showSubSection('sonra')">Ahi Evran'dan Sonra</button></li>
+            </ul>
+            <div id="subsections">
+                <div id="hayati" class="subsection">
+                    <h3>Ahi Evran'ın Hayatı</h3>
+                    <p>Ahi Evran, İran'ın Hoy şehrinde doğmuş ve asıl adı Mahmud bin Ahmed'dir. Gençliğinde öğrenim görmek için Bağdat'a gitmiş, burada birçok alimden ders almış ve tasavvufi eğitimini tamamlamıştır. Daha sonra Anadolu'ya gelerek, burada Ahilik teşkilatını kurmuştur.</p>
+                    <p>Ahilik, esnaf ve zanaatkarlar arasında ahlaki ve mesleki standartları korumayı amaçlayan bir teşkilattır. Ahi Evran'ın bu teşkilatın kurulmasındaki rolü büyüktür ve onun liderliğinde Ahilik, Anadolu'da hızla yayılmıştır.</p>
+                </div>
+                <div id="teskilat" class="subsection">
+                    <h3>Ahilik Teşkilatı</h3>
+                    <p>Ahilik, esnaf ve zanaatkarlar arasında ahlaki ve mesleki standartları korumayı amaçlayan bir teşkilattır. Ahilik teşkilatı, esnaflar arasında dürüstlük, yardımlaşma, dayanışma ve sosyal adaleti teşvik etmiştir. Bu teşkilat, esnaf ve zanaatkarlar arasında ahlaki ve mesleki standartları korumayı amaçlamış ve Anadolu'da önemli bir sosyal yapı haline gelmiştir.</p>
+                    <p>Ahi Evran'ın kurduğu Ahilik teşkilatı, esnaflar arasında dürüstlük, yardımlaşma, dayanışma ve sosyal adaleti teşvik etmiştir. Bu teşkilat, esnaf ve zanaatkarlar arasında ahlaki ve mesleki standartları korumayı amaçlamış ve Anadolu'da önemli bir sosyal yapı haline gelmiştir.</p>
+                </div>
+                <div id="eserler" class="subsection">
+                    <h3>Ahi Evran'ın Eserleri</h3>
+                    <p>Ahi Evran'ın eserleri arasında "Letâif-i Hikmet", "Mecmûa-i Hikmet" ve "Nasihatname" gibi önemli eserler bulunmaktadır. Bu eserlerinde ahlaki ve mesleki konulara değinmiş, esnafların nasıl davranması gerektiği konusunda yol göstermiştir.</p>
+                    <p>Ahi Evran'ın önemli eserleri arasında "Letâif-i Hikmet", "Mecmûa-i Hikmet" ve "Nasihatname" bulunmaktadır. Bu eserlerinde ahlaki ve mesleki konulara değinmiş, esnafların nasıl davranması gerektiği konusunda yol göstermiştir. Ayrıca, Ahilik teşkilatının kuralları ve prensipleri hakkında da bilgiler vermiştir.</p>
+                </div>
+                <div id="donemi" class="subsection">
+                    <h3>Ahi Evran ve Dönemi</h3>
+                    <p>Ahi Evran, 13. yüzyılda yaşamış ünlü bir Türk düşünür ve esnaf teşkilatı lideridir. Ahilik teşkilatının kurucusu olarak bilinir ve esnaflar arasında dürüstlük, yardımlaşma ve dayanışma gibi değerleri teşvik etmiştir.</p>
+                </div>
+                <div id="sonra" class="subsection">
+                    <h3>Ahi Evran'dan Sonra</h3>
+                    <p>Ahi Evran'ın vefatından sonra Ahilik teşkilatı, onun öğretilerini ve ilkelerini devam ettirerek esnaflar arasında güçlü bir dayanışma ağı oluşturmuştur. Ahilik teşkilatı, Osmanlı İmparatorluğu'nun ekonomik ve sosyal yapısında önemli bir rol oynamıştır. Esnaflar arasında adalet, dürüstlük ve yardımlaşma ilkelerini yayarak, toplumun ekonomik ve sosyal gelişimine katkıda bulunmuştur.</p>
+                </div>
+            </div>
+        </section>
+        <section id="eserler">
+            <h2>Eserler</h2>
+            <ul>
+                <li><button onclick="openInNewTab('https://example.com/eser1')">Letâif-i Hikmet</button></li>
+                <li><button onclick="openInNewTab('https://example.com/eser2')">Mecmûa-i Hikmet</button></li>
+                <li><button onclick="openInNewTab('https://example.com/eser3')">Nasihatname</button></li>
+            </ul>
+        </section>
+        <section id="kaynakca">
+            <h2>Kaynakça</h2>
+            <ul>
+                <li><a href="https://example.com/kaynak1" target="_blank">Ahi Evran ve Ahilik - [Kaynak 1]</a></li>
+                <li><a href="https://example.com/kaynak2" target="_blank">Türk Düşünürleri - [Kaynak 2]</a></li>
+                <li><a href="https://example.com/kaynak3" target="_blank">Ahilik Teşkilatı Üzerine - [Kaynak 3]</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Ahi Evran</p>
+    </footer>
+</body>
+</html>
